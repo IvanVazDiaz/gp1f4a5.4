@@ -11,8 +11,8 @@
 				echo "Wrong selection. A team can not play against itself. Select a different team 2, please</br>";
 			}
 			else{
-				if ((($_GET["e1"]=="a") and  ($_GET["e2"]=="b")) or (($_GET["e1"]=="b") and  ($_GET["e2"]=="a"))){
-					echo "Special match: Price: 15 Euros</br>";
+				if (($_GET["e1"]=="Rocaparda Village Sporting Club") and  ($_GET["e2"]=="North Pallerola Athletic Club")) {
+					echo "Special match: Price: 13 Euros</br>";
 				}
 				else {
 					echo "Basic match. Price: 10 Euros</br>";
